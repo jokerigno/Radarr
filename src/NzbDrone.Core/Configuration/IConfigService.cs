@@ -67,6 +67,7 @@ namespace NzbDrone.Core.Configuration
         string ImportExclusions { get; set; }
 
         //UI
+        string OmdbApiKey { get; set; }
         int FirstDayOfWeek { get; set; }
         string CalendarWeekColumnHeader { get; set; }
 
